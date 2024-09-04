@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 50px;
+    
+}
+
+#content {
+    background-color: rgb(201, 201, 201);
+    padding: 10px;
+    box-shadow: 1px 1px 1px 0.2px;
+    width: 80%; /* Usa 80% da largura da tela */
+    max-width: 800px; /* Limita a largura máxima */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+h1 {
+    font-family: cursive, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+p {
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif
+}
+
+img {
+    border-radius: 50%;
+    max-width: 40%;
+    padding: 10px;
+}
+
+#copy {
+    font-size: 0.8em;
+}
